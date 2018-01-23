@@ -1,0 +1,19 @@
+{
+  "InvokeConfig": [
+    {
+      "ID": "获取口碑列表",
+      "ClassName": "com.koubei.bll.bll_Topic",
+      "MethodName": "kb_GetTopicListByCsId"
+    },
+    {
+      "ID": "获取口碑列表2",
+      "ClassName": "com.koubei.bll.bll_Topic2",
+      "MethodName": "kb_GetTopicListByCsId"
+    },
+    {
+      "ID": "根据guid获取口碑",
+      "ClassName": "com.koubei.bll.bll_Topic",
+      "MethodName": "kb_API_GetTopicIdByGuid"
+    }
+  ]
+}

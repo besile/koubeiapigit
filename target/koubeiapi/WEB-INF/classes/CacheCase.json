@@ -1,0 +1,20 @@
+{
+   "CacheConfig":[
+       {
+          "ID":"CacheTopicList",
+          "ClassName":"com.koubei.cache.bll.srv_Topic",
+          "MethodName":"kb_GetTopicByIds",
+          "Pre":"B_KB_Topic_",
+         "ParamType":"java.lang.String",
+          "ExpTime":72000
+       },
+       {
+         "ID":"CacheTopic",
+          "ClassName":"com.koubei.cache.bll.srv_Topic",
+          "MethodName":"kb_GetTopicById",
+          "Pre":"B_KB_Topic_",
+          "ParamType":"java.lang.Integer",
+          "ExpTime":72000
+       }
+   ]
+}
